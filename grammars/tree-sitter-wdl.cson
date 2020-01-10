@@ -1,0 +1,11 @@
+name: 'Workflow Description Language'
+scopeName: 'WDL'
+type: 'tree-sitter'
+parser: 'tree-sitter-wdl'
+
+fileTypes: [
+  'wdl'
+]
+
+comments:
+  start: '#'
