@@ -1,6 +1,6 @@
 {
   "name": "language-wdl-ts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "WDL language support in Atom",
   "keywords": [
     "tree-sitter"
