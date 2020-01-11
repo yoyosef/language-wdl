@@ -9,3 +9,32 @@ fileTypes: [
 
 comments:
   start: '#'
+
+scopes:
+  'loop': 'keyword.control'
+  'conditional': 'keyword.control'
+
+  'call':'keyword.call'
+
+  'workflow':'workflow'
+  'workflow_element':'workflow.element'
+
+  '"*"': 'keyword.operator'
+  '"-"': 'keyword.operator'
+  '"+"': 'keyword.operator'
+  '"/"': 'keyword.operator'
+  '"%"': 'keyword.operator'
+  '"=="': 'keyword.operator'
+  '"!"': 'keyword.operator'
+  '"!="': 'keyword.operator'
+  '"<"': 'keyword.operator'
+  '">"': 'keyword.operator'
+  '">="': 'keyword.operator'
+  '"<="': 'keyword.operator'
+  '"&&"': 'keyword.operator'
+  '"||"': 'keyword.operator'
+  '"="': 'keyword.operator'
+
+  'boolean': 'constant.language.boolean'
+
+  'primitive_type': 'storage.type'
